@@ -47,6 +47,10 @@ const Home = ({ data }) => {
     setCurrentPage(1);
   }, [region, data]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [currentPage])
+
   return (
     <div className="flex flex-col">
       <div className="filter-search flex md:flex-row flex-col justify-between items-center md:pt-12 pt-6 md:px-20 px-6">

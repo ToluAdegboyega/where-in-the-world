@@ -35,7 +35,7 @@ const Country = ({ country, data }) => {
             <img
               src={country.flags.svg}
               alt={`${country.name} flag`}
-              className="w-full lg:h-96 h-48 object-cover"
+              className="w-[95%] sm:w-full lg:h-96 h-48 object-cover"
             />
           </div>
           <div className="lg:w-2/4 w-full lg:px-20 md:px-6 px-0 mb-8">
