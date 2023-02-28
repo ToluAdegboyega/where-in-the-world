@@ -2,6 +2,8 @@
 
 React app built with Rest Countries API v2, Tailwind and Sass.
 
+Live: https://friendly-mochi-295635.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
