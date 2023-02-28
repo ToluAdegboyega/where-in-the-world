@@ -33,6 +33,7 @@ const Header = () => {
       </h1>
 
       <button
+        data-testid="switch"
         onClick={switchTheme}
         className="flex justify-end items-center 
         h-12 py-0 px-4 -mr-4 text-xs font-semibold cursor-pointer border-none bg-transparent rounded-md"

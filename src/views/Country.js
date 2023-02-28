@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import { ReactComponent as Back } from "../assets/icons/arrow-left.svg";
 
 const Country = ({ country, data }) => {
-  let languages = country.languages
+  let languages = country?.languages
     .map((lang) => {
       return lang.name;
     })
     .join(", ");
 
-  let borders = country.borders;
+  let borders = country?.borders;
   let filteredBorders = [];
 
   if (borders) {

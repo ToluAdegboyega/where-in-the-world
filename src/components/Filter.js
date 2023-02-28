@@ -42,7 +42,7 @@ const Filter = ({ handleFilter }) => {
   }, [region, handleFilter]);
 
   return (
-    <div className="filter m-4 h-14 w-52 rounded-md relative">
+    <div data-testid="filter" className="filter m-4 h-14 w-52 rounded-md relative">
       <button
         onClick={handleClick}
         onBlur={handleBlur}

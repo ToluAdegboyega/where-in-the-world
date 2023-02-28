@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders landing page 1`] = `<App />`;
+
+exports[`theme switch 1`] = `<Header />`;
