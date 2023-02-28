@@ -211,7 +211,7 @@ $transition-bg: background-color 0.2s ease-in-out;
     transform-origin: top;
     position: relative;
     margin-top: 4px;
-    z-index: 100;
+    z-index: 9999999999999999999999999;
     width: 100%;
     border-radius: $border-radius;
     background-color: var(--element);
