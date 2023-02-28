@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const CountryCard = ({ country }) => {
   return (
     <Link to={`/${country.alpha3Code}`}>
-      <div className="card flex flex-col items-start w-60 h-84 rounded-md overflow-hidden cursor-pointer m-4">
+      <div className="card flex flex-col items-start w-60 h-96 rounded-md overflow-hidden cursor-pointer m-4">
         <div className="card__flag w-full h-40 overflow-hidden">
           <img src={country.flag} alt={`${country.name} flag`} className="w-full h-full object-cover flex justify-center items-center" />
         </div>

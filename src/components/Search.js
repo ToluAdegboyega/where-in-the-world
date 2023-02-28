@@ -48,6 +48,7 @@ const Search = ({ handleSearch }) => {
         onChange={handleChange}
         onKeyUp={handleEnter}
         className="relative h-full w-full py-2 pr-12 pl-20 border-none tracking-wide font-normal text-sm bg-transparent"
+        data-testid="search"
       />
       {search && <Close className={"close-btn h-8 p-1 top-3 right-3 rounded-full cursor-pointer z-10"} onClick={handleDelete} />}
     </div>
